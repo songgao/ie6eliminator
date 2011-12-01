@@ -1,0 +1,71 @@
+#youareaboutto {
+    width: 80%;
+    font-size: 14pt;
+    margin-top: 0px;
+    padding-bottom: 4px;
+    padding-left: 32px;
+    padding-right: 32px;
+    
+    margin-bottom: 4px;
+}
+
+#url {
+    margin-top: 8px;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-size: 10pt;
+
+}
+
+
+#explaination{
+    margin: 16px;
+    margin-left: 96px;
+    margin-right: 96px;
+    padding: 8px;
+    font-size: 16pt;
+}
+
+
+#choose{
+    margin-top: 32px;
+    width: 100%;
+    height: 150px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+#choose span{
+    font-size: 10pt;
+}
+
+#browsers{
+    margin-top: 32px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: red;
+}
+
+#browsers div{
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#chooseforme{
+    margin-top: 32px;
+    float: right;
+}
+
+.bgred{background-color: red;}
+
+.browser {
+    float: left;
+    margin: 12px;
+}
+
+#browsers a:link, #browsers a:visited {
+    color: #3B5998;
+    text-decoration: none;
+}
+

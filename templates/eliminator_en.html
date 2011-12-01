@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}Please don't use IE6{% endblock %}
+{% block head %}
+<link type="text/css" href="static/css/eliminator.css" rel="Stylesheet" />	
+<script src="static/js/eliminator.js"></script>
+{% endblock %}
+{% block body %}
+
+{% if is_preview %}
+<div style="float: right; margin-right:32px; margin-top: -64px; font-size: 24pt; font-weight: bold; color: red;">IE6 PREVIEW</div>
+{% endif%}
+
+<div id="youareaboutto">
+You are about to visit following URL:
+<div id="url">
+{{ url }}
+</div>
+</div>
+<div id="explaination" class="ui-widget ui-state-error ui-corner-all">
+<span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em; "></span>
+It is detected that you are using the <b>seriously outdated</b> Internet Explorer 6. 
+</div>
+<div id="choose">
+For a better experience, please turn to a modern browser. <span><a href="http://mashable.com/2009/07/16/ie6-must-die/" target="_blank" id="buttonwhy">Why?</a></span>
+    <div id="browsers">
+        <a href="http://chrome.google.com/">
+        <div class="browser">
+        <img src="static/image/chrome.png"/>
+        <div>Google Chrome</div>
+        </div>
+        </a>
+        <a href="http://www.firefox.com/">
+        <div class="browser">
+        <img src="static/image/firefox.png"/>
+        <div>Firefox</div>
+        </div>
+        </a>
+        <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx">
+        <div class="browser">
+        <img src="static/image/ie.png"/>
+        <div>Internet Explorer</div>
+        </div>
+        </a>
+        <a href="http://apple.com/safari">
+        <div class="browser">
+        <img src="static/image/safari.png"/>
+        <div>Safari</div>
+        </div>
+        </a>
+        <a href="http://www.opera.com/">
+        <div class="browser">
+        <img src="static/image/opera.png"/>
+        <div>Opera</div>
+        </div>
+        </a>
+    </div>
+</div>
+
+<div id="chooseforme">
+<a href="http://chrome.google.com/" id="buttonchooseforme">Choose For Me</a>
+<a href="{{ url }}" id="buttonskip">Skip</a>
+</div>
+
+
+{% endblock %}

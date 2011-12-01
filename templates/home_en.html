@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}IE6 Eliminator{% endblock %}
+{% block head %}
+<link type="text/css" href="static/css/home.css" rel="Stylesheet" />	
+<script src="static/js/home.js"></script>
+{% endblock %}
+{% block body %}
+<div id="heading">IE 6 Eliminator</div>
+<div id="pleaseenter">
+<div>
+<input type="text" class="ui-corner-all textbox" id="original_url" style="width: 480px;"/>
+<a href="#" class="button" id="buttonGenerate">Generate and Shorten</a>
+</div>
+Please enter an URL to be redirected from IE6 Eliminator
+
+</div>
+
+<div id="generated"></div>
+{% endblock %}

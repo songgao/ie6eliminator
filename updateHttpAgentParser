@@ -1,0 +1,3 @@
+#!/bin/bash
+
+wget -O httpagentparser.py https://github.com/shon/httpagentparser/raw/master/httpagentparser/__init__.py

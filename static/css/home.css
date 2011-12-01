@@ -1,0 +1,61 @@
+.textbox{
+    border: #aaaaaa 1px solid;
+    padding: 7px;
+    padding-top: 8px;
+    COLOR: #000000; 
+}
+
+#heading{
+    float: center;
+    width: 480px;
+    margin: auto;
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+    
+    margin-bottom: 96px;
+}
+
+#pleaseenter {
+    float: center;
+    font-size: 10pt;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: auto;
+    color: #777777;
+    width: 700px;
+}
+
+.button{
+    margin: 0px;
+    margin-left: 8px;
+}
+
+#generated{
+    float: center;
+    margin: auto;
+    margin-top: 32px;
+    width: 480px;
+    padding: 8px;
+}
+
+#generated_url{
+    float: left;
+    margin: auto;
+    border: #DDDD99 1px solid;
+    background-color: #FFFFCC;
+    width: 320px;
+    padding: 7px;
+    padding-top: 8px;
+}
+
+#generated_url a:link, #generated_url a:visited {
+    color: #3B5998;
+    text-decoration: none;
+}
+
+#instruction{
+    margin: auto;
+    margin-bottom: 8px;
+    font-size: 12pt;
+}

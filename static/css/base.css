@@ -1,0 +1,9 @@
+div, p {
+    font-size: 10pt;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#content {
+    position: absolute;
+    width: 1000px
+}
